@@ -72,7 +72,7 @@ d3.csv("data/semanticDrift.csv", function(error, data) {
         .attr("text-anchor", "middle")
         .style("font", "15px helvetica")
         .style("text-decoration","underline")
-        .text("Semantic Drift of 'Option'");
+        .text("Semantic Drift of 'Risk'");
 
   // x-axis
   svg.append("g")
