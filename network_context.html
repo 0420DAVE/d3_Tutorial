@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
+
+    <style>
+
+    :root {
+      --annotation-color: #9b9b99;
+    }
+     body{
+        background-color: whitesmoke;
+     }
+
+     svg {
+        background-color: white;
+        font-family: 'Lato';
+        overflow: visible;
+     }
+
+     line {
+       stroke:#e3e3e3;
+     }
+
+     .editable .annotation-subject, .editable .annotation-textbox {
+       cursor: move;
+     }
+
+     .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 1px;
+      }
+
+      .annotation path {
+        stroke: var(--annotation-color);
+        fill: rgba(0,0,0,0);
+      }
+
+      .annotation path.connector-arrow{
+        fill: var(--annotation-color);
+      }
+
+      .annotation text {
+        fill: var(--annotation-color);
+      }
+
+      .annotation-title {
+        font-weight: bold;
+      }
+
+      .annotation .annotation-subject circle.handle {
+        display: none;
+      }
+
+      .annotation-note-bg {
+        fill: rgba(255, 255, 255, 0);
+      }
+
+       circle.handle {
+        stroke-dasharray: 5;
+        stroke: grey;
+        fill: rgba(255, 255, 255, 0);
+        cursor: move;
+
+        stroke-opaContextW: .4;
+      }
+
+      circle.handle.highlight {
+        stroke-opaContextW: 1;
+      }
+
+      .annotation.major {
+        font-weight: 900;
+        font-size: 1em;
+      }
+
+      .annotation-note-label tspan {
+        text-anchor: middle;
+      }
+
+    </style>
+</head>
+<body>
+    <svg width=1000 height=1000></svg>  <!--set up a canvas: The HTML <svg> element is a container for SVG graphics.> Scalable Vector Graphics-->
+    <script src="https://d3js.org/d3.v4.js"></script> 
+    <script src="packages/bboxCollide.js"></script>
+    <!--<script src="packages/d3-annotate.js"></script>-->
+    <script src="https://cdn.rawgit.com/susielu/d3-annotation/master/d3-annotation.js"></script> 
+    <script src = "network_context.js"></script>
+</body>
+</html>

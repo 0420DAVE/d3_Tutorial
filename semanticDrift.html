@@ -1,0 +1,61 @@
+<!--
+Scatter plot from @mbostock based on R/Iris dataset
+https://bl.ocks.org/mbostock/3887118 (converted from v3 to v4)
+-->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+  body {
+    font: 13px sans-serif;
+  }
+
+  .axis path{
+    fill:none;
+  }
+  .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+  }
+
+  .dot {
+    stroke: #000;
+  }
+
+  .label { fill: #999; }
+
+  /*
+   * d3-annotate
+   */
+
+   .d3-an-container .annotation {
+    cursor: move;
+   }
+  .d3-an-container .annotation.dragging {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    text-decoration: underline;
+   }
+  .d3-an-text-edit {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+  }
+</style>
+
+<body>
+  <svg width=1000 height=650></svg>
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="packages/d3-annotate.js"></script>
+  <script src="packages/bboxCollide.js"></script>
+  <script src="https://cdn.rawgit.com/susielu/d3-annotation/master/d3-annotation.js"></script> 
+  <script src="semanticDrift.js"></script>
+
+
+
+</body>
+</html>
