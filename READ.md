@@ -6,6 +6,7 @@ This folder has following files:
 3. testOption.csv
 4. webPage.html
 
+
 This is an illustration on a very beginning-level guide of plotting using d3 (what is d3?: https://d3js.org/)
 You can visualise the sample graph by open webPage.html in a browser. It shows a semantic drift analysis of option from 1850 to 2000. 
  
