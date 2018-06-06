@@ -17,9 +17,10 @@ In this tutorial, I offer samples for 4 graphs: scatter plot, line chart, barcha
 
 ### Install D3 and its packages
 To use D3 library, you don't need to download or install anything. Instead, you can source it directly by passing the following code to the html page ( which is webpage.html in the folder):
-<script src="http://d3js.org/d3.v4.min.js"></script>
-** Note that this tutorial use version 4. 
-
+```javascript
+<script src="http://d3js.org/d3.v4.min.js"></script>//** Note that this tutorial use version 4. 
+```
+  
 Other than the code above, the html page also host the following three lines of code:
 ```javascript
 <script src="packages/bboxCollide.js"></script>
