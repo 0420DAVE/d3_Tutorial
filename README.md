@@ -12,8 +12,8 @@ Pictures below show how the 4 graphs looks like. These figures are plotted for a
 </p>
    
 1. Scatter plot with annotation (Semantic change of word _risk_).    
-2. Network on contextual structure of word _nuclear_.  
-3. Frequency change of _hiv_ and _war_ over 200 years.  
+2. Network on contextual structure of word _nuclear_ (It shows in which contexts the word _nuclear_ was used).
+3. Diachronical word frequency of _hiv_ and _war_ over 200 years.  
 4. Barchart, with x-axis scalled differently for positive value domain and negative value domain (to make sure each side takes half of the canvas).   
 5. Barchart, x-axis with one scale.   
 
@@ -24,7 +24,7 @@ To use D3 library, you don't need to download or install anything. Instead, you 
 <script src="http://d3js.org/d3.v4.min.js"></script>//** Note that this tutorial use version 4. 
 ```
   
-Other than the code above, the html page also host the following three lines of code:
+This is how you call D3 packages and D3 scripts in html:
 ```javascript
 <script src="packages/bboxCollide.js"></script>
 <script src="https://cdn.rawgit.com/susielu/d3-annotation/master/d3-annotation.js"></script>    
@@ -35,18 +35,17 @@ Other than the code above, the html page also host the following three lines of 
 ```
 
 ### You can skip many basics by but have to understand ``canvas`` and ``scale``
-Read section ``Starting with a basic graph`` from the book [**tricks and tips with d3**](https://leanpub.com/D3-Tips-and-Tricks).
+Read section ``Starting with a basic graph`` from the book **tricks and tips with d3** [download](https://leanpub.com/D3-Tips-and-Tricks).
 
 ### How to set up working environment?
 I use sublime 3. 
-Install [D3js package](https://packagecontrol.io/packages/D3js%20v4) will help you a bit by offering convenient code completion.
+Install [D3js package](https://packagecontrol.io/packages/D3js%20v4) will help you a lot by offering convenient code completion.
 Install by cmd+shift+p to initiate command palette, then type package control: install package, then search for the package you need.
-Importantly, many code samples offered online are written in version 3 or earlier. We are using version 4 in this project. 
+Please note that many code samples offered online are written in version 3 or earlier. We are using version 4 in this project. 
 The package I mentioned above provide code snippets for changes from v3 to v4. The function is accessible from the command pallette (Mac: cmd+shift+p)
 
 ### How to debug code?
 After open the webPage.html  in a browser, you can press F12 (or fn+F12 if using Mac) to see where the code went wrong. Click Console for more debugging information. 
-
 
 ### What's in this reposiroty
 This repository has following files/folders:
