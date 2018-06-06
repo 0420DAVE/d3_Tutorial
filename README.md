@@ -1,8 +1,9 @@
-# A beginner's guide on D3 by a beginner 
+# A beginner's guide to D3 by a beginner 
 
-This is a basic guide on drawing graphs with D3 (a javscript library that helps data visualization: https://d3js.org/). As a beginner myself, I know the pain of going through many "basic guide to D3" that are just not basic enough for people like me. I have limited coding skills in python and R, and have never played with javascript or HTML before.
+This is a simple guide on drawing graphs with [D3](https://d3js.org/). I made this for people who don't have a lot experience with programming, and don't want to go through how D3 (javascript) works systematically and yet need to produce some nice figures quicky. As a beginner myself, I know the pain of going through many "basic guide to D3" that are just not basic enough for people like me (I have limited coding skills in python and R, and have never played with javascript or HTML before). 
 
-In this tutorial, I offer samples for 4 graphs: scatter plot, line chart, barchart, network.
+### Get started
+In this guide, I offer code templates for 4 graphs: scatter plot, line chart, barchart, network. My suggestion is download this repository and take a look at code and data. A simple way to start is to look at my examples by opening the html files in the browser and take a look at the data too. Try to pre-process data into the same/similar format as mine. Then you can just take my script as a template and work on it. It would be so much simpler than writing D3 codes from scatch on your own. 
 
 <p align="center">
   <img src="https://github.com/0420DAVE/d3_Tutorial/blob/master/pics/sample.jpg" width="2000"/>
@@ -30,9 +31,6 @@ Other than the code above, the html page also host the following three lines of 
  ```javascript
 <script src="barchat_dual.js"></script>  // this is sourced to a D3 script I wrote on plotting a barchart. 
 ```
-
-### Get started
-If you want to plot a scatter plot, line chart, barchart, or network, you can take a look at my examples by opening the html files in the browser and take a look at the data too. If you can manage to pre-process data into the same/similar format as mine, you can just take my script and work on it. It would be so much faster than writing D3 codes from scatch on your own. 
 
 ### You can skip many basics by but have to understand ``canvas`` and ``scale``
 Read section ``Starting with a basic graph`` from the book [**tricks and tips with d3**](https://leanpub.com/D3-Tips-and-Tricks).
