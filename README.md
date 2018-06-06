@@ -1,6 +1,6 @@
 # A beginner's guide to D3 by a beginner 
 
-This is a simple guide on drawing graphs with [D3](https://d3js.org/). I made this for people who don't have a lot experience with programming, and don't want to go through how D3 (javascript) works systematically and yet need to produce some nice figures quicky. As a beginner myself, I know the pain of going through many "basic guide to D3" that are just not basic enough for people like me (I have limited coding skills in python and R, and have never played with javascript or HTML before). 
+This is a simple guide on drawing graphs with [D3](https://d3js.org/). I made this for people who don't have a lot experience with programming, and don't want to go through how D3 (javascript) works systematically and yet need to produce some nice figures quicky. As a beginner myself, I know the pain of going through many "basic guide to D3" that are just not basic enough for people like me (I only coded in python and R, and have never played with javascript or HTML before). 
 
 ### Get started
 In this guide, I offer code templates for 4 graphs: scatter plot, line chart, barchart, network. My suggestion is download this repository and take a look at code and data. A simple way to start is to look at my examples by opening the html files in the browser and take a look at the data too. Try to pre-process data into the same/similar format as mine. Then you can just take my script as a template and work on it. It would be so much simpler than writing D3 codes from scatch on your own. 
